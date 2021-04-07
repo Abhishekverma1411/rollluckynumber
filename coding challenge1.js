@@ -1,0 +1,12 @@
+var massmark,massjohn,heightmark,heightjohn;
+massjohn=75;
+massmark=80;
+heightjohn=1.75;
+heightmark=1.80;
+var bmimark,bmijohn;
+bmijohn=massjohn/(heightjohn*heightjohn);
+bmimark=massmark/(heightmark*heightmark);
+console.log(bmijohn);
+console.log(bmimark);
+var greatbmi=bmimark>bmijohn;
+console.log('is mark bmi is higher than the john '+greatbmi);
